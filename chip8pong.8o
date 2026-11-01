@@ -178,7 +178,7 @@
   draw_scores
   # fall through
 
-# Centre the ball with a random vertical direction.
+# Center the ball with a random vertical direction.
 : serve
   ball_x := SERVE_X
   ball_y := SERVE_Y

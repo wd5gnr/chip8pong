@@ -1,18 +1,19 @@
 # CHIP-8 Pong (Octo)
 
-A two-player Pong for CHIP-8, written in [Octo](https://github.com/JohnEarnest/Octo) assembly. It compiles to **332 bytes**.
+A two-player Pong for CHIP-8, written in [Octo](https://github.com/JohnEarnest/Octo) assembly. It compiles to a little more than 300  bytes.
+Play live at https://johnearnest.github.io/Octo/index.html?key=Z_owXYVc 
 
 Features:
 
 - Two paddles on a 64x32 screen, controlled from the hex keypad
 - Ball angle depends on where it strikes the paddle
 - Score display using the built-in hex font
-- Sound on hits and misses
+- Sound on hits and misses (note by default, Octo flashes the screen silently for beeps)
 - First player to 9 wins; the game then restarts automatically
 
 ## Running it
 
-**In the browser:** open the Octo IDE, paste the contents of `pong.8o` into the editor and press Run.
+**In the browser:** open the Octo IDE, paste the contents of `pong.8o` into the editor and press Run. Or use this link: https://johnearnest.github.io/Octo/index.html?key=Z_owXYVc
 
 **From the command line:** with the Octo repository checked out,
 
